@@ -32,9 +32,32 @@ let myObj={
     age : 22,
 }
 
-const myFunction= function(){
-    console.log("Hello World");
+// const myFunction= function(){
+//     console.log("Hello World");
     
-}
+// }
 
-console.log(typeof heros);
+// console.log(typeof heros);
+
+
+//******************************************************************** */
+
+let myYoutubename = "back2back"
+let anothername = myYoutubename
+anothername="527back2back"
+
+console.log( myYoutubename);
+console.log(anothername);
+
+let userOne={
+    email: "aiarchitech@gmail.com",
+    upi: "user@324bl"
+
+}
+let userTwo = userOne
+
+userTwo.email= "back2back527@gmail.com"
+
+console.log(userOne.email);
+console.log(userTwo.email);
+
